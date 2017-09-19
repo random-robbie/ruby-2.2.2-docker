@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:latest
 ENV DEBIAN_FRONTEND noninteractive
 ENV HOME /root
 WORKDIR /tmp/
