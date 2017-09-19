@@ -12,5 +12,4 @@ RUN make install
 RUN gem update --system 
 RUN gem install bundler
 RUN bundle config --global silence_root_warning 1
-RUN bundle install
 ENTRYPOINT ["/bin/bash"]
